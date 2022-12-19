@@ -254,10 +254,6 @@ if __name__ == "__main__":
             else:
                 userInput[0].append(IO.ReadFloat(qstStr="Input: "))
 
-        print(obj.Dataset)
-        print(obj.Features)
-        print(userInput)
-
         predctOutput: int = int(obj.Predict(inputs=userInput))
         predctOutputVar: str = ""
 
